@@ -1,6 +1,7 @@
 from pages.swag_labs import SwagLabs
 from pages.base_page import BasePage
 
+
 def test_check_icon(browser):
     icon = SwagLabs(browser)
     field = BasePage(browser)
